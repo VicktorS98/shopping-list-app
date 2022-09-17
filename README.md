@@ -3,10 +3,6 @@
 Hecho en ReactJs.
 
 Testeado en tamaños celular, tablet, y computadora. No puedo testear en iOS ya que no tengo una Mac o un iPhone.
-
-Made in ReactJs.
-
-Tested in mobile, tablet, and desktop sizes. Can´t test in iOS since I don´t own a Mac or iPhone.
  
  
 Aplicación simple para anotar qué comprar en el supermercado.
@@ -17,6 +13,11 @@ Características:
   -Botón para editar que permite borrar el item, o cambiar el nombre clickeando en el mismo.
   -Botón de filtrar para elegir entre todos los items, los comprados, y los no comprados(dependiendo de los tachados).
   -Botón de "borrar todo", que borra el localStorage y refresca la página luego de 3 segundos para empezar desde 0.
+  
+  
+Made in ReactJs.
+
+Tested in mobile, tablet, and desktop sizes. Can´t test in iOS since I don´t own a Mac or iPhone.
   
   
 Simple shopping list app for groceries.
