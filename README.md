@@ -1,6 +1,6 @@
 # shopping-list-app
 
-Hecho en ReactJs
+Hecho en ReactJs.
 Made in ReactJs
 
 Testeado en tamaños celular, tablet, y computadora. No puedo testear en iOS ya que no tengo una Mac o un iPhone.
