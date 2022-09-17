@@ -1,0 +1,50 @@
+@use "src/Styles/mixin.scss" as *;
+
+.buttonsContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  & > * {
+    font-size: var(--fs-8);
+    cursor: pointer;
+    @include commonFlex;
+    @include topButtons;
+  }
+
+  .edit {
+    gap: 5px;
+    border-bottom-right-radius: 6px;
+  }
+
+  .filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .filter span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .filter span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 3px;
+    left: -7px;
+    background-color: black;
+    transform: rotateZ(-45deg);
+  }
+
+  .clearStorage {
+    border-bottom-left-radius: 6px;
+  }
+}

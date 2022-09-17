@@ -1,0 +1,10 @@
+@mixin commonFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin topButtons {
+  padding: 0.5rem 0.8rem;
+  background-color: var(--clr-buttons);
+}

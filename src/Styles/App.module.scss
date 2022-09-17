@@ -1,0 +1,85 @@
+:root {
+  --padding-container: 2rem;
+}
+
+.appContainer {
+  min-height: 100vh;
+  background-color: var(--clr-app-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-container) 3rem;
+}
+
+.functionButtonsContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.shoppingListContainer {
+  padding-top: 4rem;
+  width: 100%;
+}
+
+.itemsContainer {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (min-width: 500px) {
+  :root {
+    --padding-container: 4rem;
+  }
+}
+
+@media (min-width: 600px) {
+  :root {
+    --padding-container: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --padding-container: 9rem;
+  }
+  .shoppingListContainer {
+    padding-top: 5rem;
+  }
+  .itemsContainer {
+    padding-top: 3.5rem;
+  }
+}
+
+@media(min-width: 900px) {
+  :root {
+    --padding-container: 11rem;
+  }
+}
+
+@media(min-width: 1000px) {
+  :root {
+    --padding-container: 13rem;
+  }
+}
+
+@media(min-width: 1100px) {
+  :root {
+    --padding-container: 14.5rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  :root {
+    --padding-container: 16.5rem;
+  }
+}
+
+@media(min-width: 1300px) {
+  :root {
+    --padding-container: 20rem;
+  }
+}
