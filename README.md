@@ -1,9 +1,8 @@
 # shopping-list-app
 
-Hecho en ReactJs.
+## Hecho en ReactJs.
 
-Testeado en tamaños celular, tablet, y computadora. No puedo testear en iOS ya que no tengo una Mac o un iPhone.
- 
+Testeado en tamaños celular, tablet, y computadora. No puedo testear en iOS ya que no tengo una Mac o un iPhone. 
  
 Aplicación simple para anotar qué comprar en el supermercado.
 Características: 
@@ -15,10 +14,9 @@ Características:
   - Botón de "borrar todo", que borra el localStorage y refresca la página luego de 3 segundos para empezar desde 0.
   
   
-Made in ReactJs.
+## Made in ReactJs.
 
 Tested in mobile, tablet, and desktop sizes. Can´t test in iOS since I don´t own a Mac or iPhone.
-  
   
 Simple shopping list app for groceries.
 Features:
