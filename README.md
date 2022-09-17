@@ -2,9 +2,9 @@
 
 Hecho en ReactJs.
 
-Made in ReactJs.
-
 Testeado en tamaños celular, tablet, y computadora. No puedo testear en iOS ya que no tengo una Mac o un iPhone.
+
+Made in ReactJs.
 
 Tested in mobile, tablet, and desktop sizes. Can´t test in iOS since I don´t own a Mac or iPhone.
  
