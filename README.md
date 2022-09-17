@@ -7,7 +7,7 @@ Testeado en tamaños celular, tablet, y computadora. No puedo testear en iOS ya 
  
 Aplicación simple para anotar qué comprar en el supermercado.
 Características: 
-  -Todos los items se guardan en el localStorage así que estarán presentes la próxima vez que se abra la página.
+  - Todos los items se guardan en el localStorage así que estarán presentes la próxima vez que se abra la página.
   -Botones para editar cantidad.
   -Clickear el circulo o el nombre para tachar(completar el item).
   -Botón para editar que permite borrar el item, o cambiar el nombre clickeando en el mismo.
